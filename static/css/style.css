@@ -1,0 +1,30 @@
+.subrayado-puntos {
+  text-decoration: underline dotted;
+}
+
+.footer-color {
+  background: rgb(28, 54, 67);
+  background: linear-gradient(90deg, rgba(28, 54, 67, 1) 0%, rgba(29, 82, 112, 1) 35%);
+}
+
+.carousel-inner img {
+  width: 100%;
+  height: 100%;
+}
+
+.carousel-caption {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+  height: 100%;
+} 
+.carousel-item::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.5); /* Color de fondo oscuro con opacidad */
+    }
